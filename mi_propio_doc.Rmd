@@ -1,0 +1,42 @@
+---
+title: "Matemáticas I"
+author: "Universidad Regiomontana"
+date: "15/7/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Universida Regiomonta (Primera parte)
+
+El sitio de la Universdad los puedes encontrar en  <http://www.uerre.mx>.
+
+Cuando seleccionas **casa** veras que es un buen lugar que se llama *nueva*.
+
+## Lista de datos
+- nueva
+- casa
+- casa nueva
+
+
+```{r}
+print(" Hola Mundo...")
+```
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
